@@ -1,0 +1,126 @@
+body {
+  margin-top: 78px;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.navbar {
+  box-shadow: 2px 2px 5px #ec4a33;
+  opacity: 0.9;
+  background: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #ec4a33;
+}
+
+.navbar .nav-item {
+  font-size: 1rem;
+  padding-right: 1rem;
+}
+
+.carousel-item {
+  height: 500px;
+}
+
+.carousel-image-1 {
+  background: url(../img/cases7.jpg);
+  background-size: cover;
+}
+
+.carousel-image-2 {
+  background: url(../img/car1.jpg);
+  background-size: cover;
+}
+
+.carousel-image-3 {
+  background: url(../img/car2.jpg);
+  background-size: cover;
+}
+
+#home-icons i {
+  color: #ec4a33;
+}
+
+#home-icons p {
+  color: white;
+}
+
+#dishes .flex-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#dishes .flex-container img {
+  display: inline;
+  width: 30rem;
+}
+
+.btn {
+  cursor: pointer;
+}
+
+.btn:hover {
+  cursor: pointer;
+  border: 2px solid #ec4a33;
+}
+
+hr.solid {
+  border-top: 1px solid rgb(255, 255, 255);
+}
+
+#contact a {
+  font-weight: bolder;
+  text-align: center;
+  justify-content: center;
+}
+
+#contact p {
+  color: #ec4a33;
+}
+
+.map-container {
+  overflow: hidden;
+  padding-bottom: 0;
+  position: relative;
+  height: 0;
+}
+.map-container iframe {
+  left: 0;
+  top: 0;
+  height: 50vh;
+  width: 100%;
+  position: absolute;
+}
+
+#main-footer .social i {
+  color: white;
+  padding: 5px;
+}
+
+#myBox {
+  display: block; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  top: 400px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: white; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 40px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+/*#myBox:hover {
+  background-color: #555; /* Add a dark-grey background on hover 
+}*/
+
+#myBox i {
+  color: #ec4a33;
+}
+
+.ekko-lightbox-nav-overlay a {
+  color: #333;
+}
